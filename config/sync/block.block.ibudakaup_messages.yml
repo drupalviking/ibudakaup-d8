@@ -1,0 +1,22 @@
+uuid: cdbccf67-5758-4ef3-8559-af430a4a5c99
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ibudakaup
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: ibudakaup_messages
+theme: ibudakaup
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
