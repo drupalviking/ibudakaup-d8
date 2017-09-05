@@ -59,9 +59,13 @@
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 {# Header Top Bar #}
 <div class="header-top invert">
-    {% block header %}
-        {{ header_top }}
-    {% endblock %}
+    <div class="{{ container }}">
+        <div class="col-sm-12">
+            {% block header %}
+                {{ page.header_top }}
+            {% endblock %}
+        </div>
+    </div>
 </div>
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
@@ -70,29 +74,31 @@
         set navbar_classes = [
         'navbar',
         theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
-        theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
+        theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : '',
         ]
         %}
         <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
-            <div class="navbar-header">
-                {{ page.navigation }}
-                {# .btn-navbar is used as the toggle for collapsed navbar content #}
+            <div class="{{ container }}">
+                <div class="navbar-header">
+                    {{ page.navigation }}
+                    {# .btn-navbar is used as the toggle for collapsed navbar content #}
+                    {% if page.navigation_collapsible %}
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">{{ 'Toggle navigation'|t }}</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    {% endif %}
+                </div>
+
+                {# Navigation (collapsible) #}
                 {% if page.navigation_collapsible %}
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">{{ 'Toggle navigation'|t }}</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                    <div id="navbar-collapse" class="navbar-collapse collapse">
+                        {{ page.navigation_collapsible }}
+                    </div>
                 {% endif %}
             </div>
-
-            {# Navigation (collapsible) #}
-            {% if page.navigation_collapsible %}
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                    {{ page.navigation_collapsible }}
-                </div>
-            {% endif %}
         </header>
     {% endblock %}
 {% endif %}
@@ -162,10 +168,14 @@
 {% endblock %}
 
 {% block footer %}
-    <div class="footer_top">
-        {{ page.footer_top }}
+    <div class="footer-top">
+        <div class="{{ container }}">
+            {{ page.footer_top }}
+        </div>
     </div>
-    <footer class="footer {{ container }}" role="contentinfo">
-        {{ page.footer }}
+    <footer class="footer" role="contentinfo">
+        <div class="{{ container }}">
+            {{ page.footer }}
+        </div>
     </footer>
 {% endblock %}
