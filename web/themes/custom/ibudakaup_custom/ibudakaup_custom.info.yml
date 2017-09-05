@@ -1,27 +1,25 @@
 core: 8.x
 type: theme
-base theme: bootstrap
 
 name: 'Íbúðakaup.is'
-description: 'Uses the Bootstrap framework Sass source files for theme generation.'
-package: 'Bootstrap'
+description: 'Custom theme, based loosely on the Construction Company Premium Template'
+package: 'isProject'
 
 regions:
   header_top: 'Header Top'
-  navigation_collapsible: 'Menu'
-  hero: 'Hero Section'
+  menu: 'Menu'
+  slider: 'Slider'
   header_bottom: 'Header Bottom'
   help: 'Help'
   content_top: 'Content Top'
   full_width_content_top: 'Full-Width Content Top'
   content: 'Content'
   content_bottom: 'Content Bottom'
-  sidebar_first: 'Sidebar First'
-  sidebar_second: 'Sidebar Second'
+  sidebar_left: 'Sidebar Left'
+  sidebar_right: 'Sidebar Right'
   footer_top: 'Footer Top'
   footer: 'Footer'
   highlighted: 'Highlighted'
 
 libraries:
   - 'ibudakaup/global-styling'
-  - 'ibudakaup/bootstrap-scripts'

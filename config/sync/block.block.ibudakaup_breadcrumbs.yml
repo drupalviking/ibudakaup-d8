@@ -1,6 +1,6 @@
 uuid: 03818878-bfe1-4c52-91bf-b884daecba55
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
 id: ibudakaup_breadcrumbs
 theme: ibudakaup
-region: navigation
-weight: 0
+region: header_top
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:

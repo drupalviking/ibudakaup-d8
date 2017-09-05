@@ -67,3 +67,31 @@ body {
   }
 }
 
+.navbar {
+  background-color: $color__background-header-menu;
+  border-color: $color__background-header-menu;
+  border-radius: 0;
+}
+.navbar-default {
+  .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: #fff;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 12px;
+    line-height: 1em;;
+    transition: 0.4s ease-in;
+  }
+
+  .navbar-nav>li>a:hover,
+  .navbar-nav>li>a:active,
+  .navbar-nav>li>a:focus{
+    color: $color__link_color;
+  }
+}
+
+
