@@ -1,3 +1,24 @@
 body {
   background-color: $color__background-body;
+
+  a {
+    color: $color__link_color;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-stretch: normal;
+    line-height: 1em;;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus,
+  a:active {
+    color: #fff;
+    text-decoration: none;
+  }
 }
+
+

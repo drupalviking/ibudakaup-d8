@@ -1,0 +1,8 @@
+uuid: a780acc9-b997-4960-ab1e-1cb00ef16ecc
+langcode: en
+status: true
+dependencies: {  }
+id: basic_clear_text_block
+label: 'Basic Clear text block'
+revision: 0
+description: ''

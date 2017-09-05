@@ -1,0 +1,23 @@
+.header-top {
+  background-color: $color__background-header-top;
+
+  #block-emailandphonenumber {
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px 0;
+
+    a {
+      color: $color__link_color;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+  }
+
+  #block-sociallinks {
+    float: right;
+  }
+}
