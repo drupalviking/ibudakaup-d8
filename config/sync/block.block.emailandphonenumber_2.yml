@@ -1,0 +1,25 @@
+uuid: e97983c5-9fe5-4341-a113-0d29a27ce6c0
+langcode: is
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e9c9b576-73b4-48f3-a780-8b0c56bfd0ea'
+  module:
+    - block_content
+  theme:
+    - ibudakaup
+id: emailandphonenumber_2
+theme: ibudakaup
+region: footer_top
+weight: -7
+provider: null
+plugin: 'block_content:e9c9b576-73b4-48f3-a780-8b0c56bfd0ea'
+settings:
+  id: 'block_content:e9c9b576-73b4-48f3-a780-8b0c56bfd0ea'
+  label: 'Email and Phone Number'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

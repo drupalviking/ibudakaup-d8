@@ -1,6 +1,6 @@
 uuid: ffb2e24d-34bf-4959-8b15-b9cfd2ababab
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: ibudakaup_breadcrumbs
 theme: ibudakaup
 region: header_top
-weight: 0
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:

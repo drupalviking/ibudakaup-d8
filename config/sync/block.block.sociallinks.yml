@@ -1,0 +1,25 @@
+uuid: 43b4bfe2-5cc4-467b-b4c6-1cd1c8710b8f
+langcode: is
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e53a7e8d-a6d3-4b96-b165-bb3941313f01'
+  module:
+    - block_content
+  theme:
+    - ibudakaup
+id: sociallinks
+theme: ibudakaup
+region: header_top
+weight: 0
+provider: null
+plugin: 'block_content:e53a7e8d-a6d3-4b96-b165-bb3941313f01'
+settings:
+  id: 'block_content:e53a7e8d-a6d3-4b96-b165-bb3941313f01'
+  label: 'Social links'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

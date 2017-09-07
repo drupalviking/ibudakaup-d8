@@ -1,6 +1,6 @@
 uuid: 09a68607-cdc6-4c57-9a20-dcae0cdbcefc
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -13,7 +13,7 @@ _core:
 id: ibudakaup_account_menu
 theme: ibudakaup
 region: header_top
-weight: 0
+weight: -4
 provider: null
 plugin: 'system_menu_block:account'
 settings:

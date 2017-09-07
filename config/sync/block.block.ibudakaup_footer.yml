@@ -1,6 +1,6 @@
 uuid: eb1f35fd-bef0-4acb-83b3-2ba0b1019961
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -13,7 +13,7 @@ _core:
 id: ibudakaup_footer
 theme: ibudakaup
 region: header_top
-weight: 0
+weight: -5
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
