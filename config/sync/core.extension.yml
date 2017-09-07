@@ -17,6 +17,7 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
   entity_reference_revisions: 0
   field: 0
   field_ui: 0
@@ -29,6 +30,8 @@ module:
   language: 0
   link: 0
   locale: 0
+  media_entity: 0
+  media_entity_image: 0
   menu_ui: 0
   metatag: 0
   module_filter: 0
