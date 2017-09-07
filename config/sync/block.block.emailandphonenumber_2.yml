@@ -1,4 +1,4 @@
-uuid: e97983c5-9fe5-4341-a113-0d29a27ce6c0
+uuid: 79a53fe8-206f-48c5-9450-6f47e816ceb1
 langcode: is
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
 id: emailandphonenumber_2
 theme: ibudakaup
 region: footer_top
-weight: -7
+weight: 0
 provider: null
 plugin: 'block_content:e9c9b576-73b4-48f3-a780-8b0c56bfd0ea'
 settings:

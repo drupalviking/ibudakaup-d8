@@ -22,3 +22,6 @@
 
 # Node components
 node_modules/
+
+# Troublemaker
+THEMENAME.settings.yml

@@ -11,7 +11,7 @@ _core:
 id: ibudakaup_messages
 theme: ibudakaup
 region: highlighted
-weight: -7
+weight: 0
 provider: null
 plugin: system_messages_block
 settings:

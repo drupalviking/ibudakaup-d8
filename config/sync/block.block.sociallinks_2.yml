@@ -1,4 +1,4 @@
-uuid: c4073a70-cb1a-4c47-a25a-b5d1b8b32bb9
+uuid: 840c24ed-e03a-4d9d-8742-e14d3f5f887c
 langcode: is
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
 id: sociallinks_2
 theme: ibudakaup
 region: footer_top
-weight: -6
+weight: 0
 provider: null
 plugin: 'block_content:e53a7e8d-a6d3-4b96-b165-bb3941313f01'
 settings:
