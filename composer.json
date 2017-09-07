@@ -28,6 +28,7 @@
         "drupal/entity_browser": "^1.1",
         "drupal/focal_point": "^1.0@beta",
         "drupal/google_analytics": "^2.1",
+        "drupal/honeypot": "^1.27",
         "drupal/image_widget_crop": "^2.0",
         "drupal/inline_entity_form": "^1.0@beta",
         "drupal/libraries": "3.x-dev",
