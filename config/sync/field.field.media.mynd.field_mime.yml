@@ -1,0 +1,19 @@
+uuid: 350ec02f-4783-4101-979c-151e8b9593db
+langcode: is
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_mime
+    - media_entity.bundle.mynd
+id: media.mynd.field_mime
+field_name: field_mime
+entity_type: media
+bundle: mynd
+label: Mime
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

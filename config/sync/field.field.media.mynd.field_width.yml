@@ -1,0 +1,23 @@
+uuid: fbf405ce-8cc9-423c-b5d8-4307db53d22e
+langcode: is
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_width
+    - media_entity.bundle.mynd
+id: media.mynd.field_width
+field_name: field_width
+entity_type: media
+bundle: mynd
+label: Width
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

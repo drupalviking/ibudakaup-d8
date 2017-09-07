@@ -1,0 +1,23 @@
+uuid: afce35ae-f3be-4b1f-9a9f-b1bde0e46634
+langcode: is
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_image
+third_party_settings:
+  crop:
+    image_field: field_mynd
+id: mynd
+label: Mynd
+description: ''
+type: image
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_mynd
+  gather_exif: false
+field_map:
+  mime: field_mime
+  width: field_width
+  height: field_height

@@ -1,0 +1,11 @@
+uuid: 513a87fa-a9cd-44e7-b9ff-6e5c4b1f2d72
+langcode: is
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.mynd
+id: media.mynd
+target_entity_type_id: media
+target_bundle: mynd
+default_langcode: site_default
+language_alterable: false
