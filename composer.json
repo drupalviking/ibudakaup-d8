@@ -24,6 +24,7 @@
         "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
         "drupal/entity_browser": "^1.1",
+        "drupal/focal_point": "^1.0@beta",
         "drupal/google_analytics": "^2.1",
         "drupal/media_entity_document": "^1.1",
         "drupal/media_entity_image": "^1.2",
