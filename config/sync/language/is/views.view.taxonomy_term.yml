@@ -1,0 +1,18 @@
+label: Flokkunarhugtak
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Virkja
+          reset_button_label: Endursetja
+          exposed_sorts_label: 'Raða eftir'
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+  feed_1:
+    display_title: Veita
+  page_1:
+    display_title: Síða

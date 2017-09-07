@@ -1,0 +1,36 @@
+label: Skrár
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Sía
+          reset_button_label: Endursetja
+          exposed_sorts_label: 'Raða eftir'
+      pager:
+        options:
+          tags:
+            previous: '< Fyrri'
+      fields:
+        filename:
+          label: Nafn
+          separator: ', '
+        filesize:
+          label: Stærð
+        status:
+          label: Staða
+      filters:
+        status:
+          expose:
+            label: Staða
+      title: Skrár
+  page_1:
+    display_options:
+      menu:
+        title: Skrár
+  page_2:
+    display_options:
+      pager:
+        options:
+          tags:
+            previous: '< Fyrri'

@@ -1,0 +1,24 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Virkja
+          reset_button_label: Endursetja
+          exposed_sorts_label: 'Raða eftir'
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        title:
+          label: Titill
+        name:
+          label: Höfundur
+        changed:
+          label: 'Síðast uppfært'
+  attachment_1:
+    display_title: Viðhengi
+  page_1:
+    display_title: Síða

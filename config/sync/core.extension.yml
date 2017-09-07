@@ -28,6 +28,7 @@ module:
   link: 0
   locale: 0
   menu_ui: 0
+  metatag: 0
   module_filter: 0
   node: 0
   options: 0
