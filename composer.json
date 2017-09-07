@@ -34,6 +34,7 @@
         "drupal/module_filter": "^3.0",
         "drupal/paragraphs": "^1.1",
         "drupal/pathauto": "^1.0",
+        "drupal/recaptcha": "^2.2",
         "drupal/video_embed_field": "^1.5",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^1.0.0",
