@@ -1,0 +1,11 @@
+uuid: 693c13b4-24b0-461b-a461-2cb0469f07ff
+langcode: is
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_mynd
+id: block_content.hero_mynd
+target_entity_type_id: block_content
+target_bundle: hero_mynd
+default_langcode: site_default
+language_alterable: false
