@@ -23,6 +23,7 @@
         "drupal/bootstrap": "^3.5",
         "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
+        "drupal/ds": "^3.1",
         "drupal/entity_browser": "^1.1",
         "drupal/focal_point": "^1.0@beta",
         "drupal/google_analytics": "^2.1",
