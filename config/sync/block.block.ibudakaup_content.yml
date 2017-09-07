@@ -1,0 +1,22 @@
+uuid: c5c4efc5-3c4f-4dfc-8a0f-fd4c46df9c1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ibudakaup
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: ibudakaup_content
+theme: ibudakaup
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

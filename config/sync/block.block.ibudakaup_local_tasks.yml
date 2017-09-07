@@ -1,0 +1,22 @@
+uuid: b40dac94-f3f1-44b5-8fb4-dafcf792db0b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ibudakaup
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: ibudakaup_local_tasks
+theme: ibudakaup
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Flipar
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

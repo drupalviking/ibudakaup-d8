@@ -2,7 +2,7 @@ core: 8.x
 type: theme
 base theme: bootstrap
 
-name: 'ibudakaup'
+name: 'Íbúðakaup.is v1.0.0'
 description: 'Uses the Bootstrap framework Sass source files for theme generation.'
 package: 'Bootstrap'
 

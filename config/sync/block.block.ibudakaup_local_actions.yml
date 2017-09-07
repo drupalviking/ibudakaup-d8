@@ -1,0 +1,20 @@
+uuid: cef36c6d-9fca-4b7d-99bc-0d25fca8a020
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ibudakaup
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ibudakaup_local_actions
+theme: ibudakaup
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

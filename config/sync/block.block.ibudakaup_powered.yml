@@ -1,0 +1,22 @@
+uuid: 571dc2d8-f3bc-473b-8121-4397c38aa1c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ibudakaup
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: ibudakaup_powered
+theme: ibudakaup
+region: header_top
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Knúið af Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
