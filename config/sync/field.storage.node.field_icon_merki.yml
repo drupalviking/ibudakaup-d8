@@ -1,4 +1,4 @@
-uuid: ec6ade7f-2037-4477-a4a9-a8fc06bceeff
+uuid: a069566e-9a74-4884-9e84-d2bca4c16393
 langcode: is
 status: true
 dependencies:
@@ -9,7 +9,7 @@ field_name: field_icon_merki
 entity_type: node
 type: string
 settings:
-  max_length: 20
+  max_length: 50
   is_ascii: false
   case_sensitive: false
 module: core

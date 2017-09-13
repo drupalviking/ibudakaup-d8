@@ -11,8 +11,8 @@ id: node.service.body
 field_name: body
 entity_type: node
 bundle: service
-label: Body
-description: ''
+label: Meginmál
+description: 'Samantektin birtist á forsíðu vefsins, auk þess sem hún birtist sem feitletraður texti (inngangur) í textanum sjálfum.'
 required: false
 translatable: true
 default_value: {  }
