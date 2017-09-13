@@ -1,0 +1,18 @@
+uuid: 04101caa-3c66-4a4a-9f73-bb5150b1ef35
+langcode: is
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Þjónusta
+type: service
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

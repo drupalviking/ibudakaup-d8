@@ -1,0 +1,21 @@
+uuid: 83e0be8d-c6de-41f7-90d6-1133db0b79a2
+langcode: is
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icon_merki
+    - node.type.service
+id: node.service.field_icon_merki
+field_name: field_icon_merki
+entity_type: node
+bundle: service
+label: 'Icon merki'
+description: "Icon merkið er gula merkið sem birtist með úrdrættinum á forsíðu. Merkin eru hluti af setti sem heitir Font-Awesome, og eru m.a:\r\n<ul>\r\n  <li>fa-home</li>\r\n  <li>fa-cubes</li>\r\n  <li>fa-pencil-square-o</li>\r\n</ul>\r\n\r\n... svo einhver séu nefnd.  Allur listinn er svo hér: <a href=\"http://fontawesome.io/icons/\">http://fontawesome.io/icons/</a>.  Aðeins þarf að muna að setja <strong>fa-</strong> fyrir framan nafnið. "
+required: true
+translatable: false
+default_value:
+  -
+    value: fa-cog
+default_value_callback: ''
+settings: {  }
+field_type: string

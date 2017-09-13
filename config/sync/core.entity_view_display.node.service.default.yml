@@ -1,0 +1,45 @@
+uuid: 37516da0-f5ee-48e3-8380-ac9cb6040c6f
+langcode: is
+status: true
+dependencies:
+  config:
+    - field.field.node.service.body
+    - field.field.node.service.field_icon_merki
+    - field.field.node.service.field_mynd
+    - node.type.service
+  module:
+    - text
+    - user
+id: node.service.default
+targetEntityType: node
+bundle: service
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_icon_merki:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_mynd:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
