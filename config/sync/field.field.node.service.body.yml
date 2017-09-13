@@ -11,11 +11,15 @@ id: node.service.body
 field_name: body
 entity_type: node
 bundle: service
-label: Meginmál
+label: Body
 description: 'Samantektin birtist á forsíðu vefsins, auk þess sem hún birtist sem feitletraður texti (inngangur) í textanum sjálfum.'
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    summary: 'Hér er samantekt. Hún birtist á forsíðu'
+    value: ''
+    format: basic_html
 default_value_callback: ''
 settings:
   display_summary: true

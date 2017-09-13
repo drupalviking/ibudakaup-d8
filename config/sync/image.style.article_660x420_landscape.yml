@@ -1,0 +1,16 @@
+uuid: 5960ebb5-44e6-4e11-9702-81040c41392e
+langcode: is
+status: true
+dependencies:
+  module:
+    - focal_point
+name: article_660x420_landscape
+label: 'Article 660x420 (Landscape)'
+effects:
+  f6afe167-aa33-4457-92cd-1cae68ae0a82:
+    uuid: f6afe167-aa33-4457-92cd-1cae68ae0a82
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 660
+      height: 420

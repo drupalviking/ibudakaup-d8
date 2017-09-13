@@ -1,8 +1,9 @@
-uuid: 37516da0-f5ee-48e3-8380-ac9cb6040c6f
+uuid: 3ccc2dae-62c2-4642-b512-2af00539ad21
 langcode: is
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.service.body
     - field.field.node.service.field_icon_merki
     - field.field.node.service.field_mynd
@@ -19,7 +20,6 @@ third_party_settings:
       disable_css: false
       entity_classes: all_classes
       settings:
-        classes: {  }
         wrappers:
           header: div
           left: div
@@ -29,17 +29,17 @@ third_party_settings:
         attributes: ''
         link_attribute: ''
         link_custom: ''
+        classes:
+          layout_class: {  }
     regions:
-      header:
-        - links
-        - body
+      left:
         - field_mynd
-        - field_icon_merki
-        - langcode
-id: node.service.default
+      right:
+        - body
+id: node.service.full
 targetEntityType: node
 bundle: service
-mode: default
+mode: full
 content:
   body:
     label: hidden
@@ -47,20 +47,17 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
-    region: content
+    region: right
   field_mynd:
-    weight: 2
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  links:
     weight: 0
-    region: content
-    settings: {  }
+    label: hidden
+    settings:
+      view_mode: landscape_660x420
+      link: false
     third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: left
 hidden:
   field_icon_merki: true
   langcode: true
+  links: true

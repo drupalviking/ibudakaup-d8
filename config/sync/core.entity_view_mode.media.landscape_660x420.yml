@@ -1,0 +1,10 @@
+uuid: 5f8dfb38-11bd-40e4-ad0a-82852907de5f
+langcode: is
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.landscape_660x420
+label: 'Landscape 660x420'
+targetEntityType: media
+cache: true

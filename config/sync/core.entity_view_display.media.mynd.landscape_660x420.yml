@@ -1,0 +1,37 @@
+uuid: 49dea93c-45dc-4aeb-bc41-564dffaab636
+langcode: is
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.landscape_660x420
+    - field.field.media.mynd.field_height
+    - field.field.media.mynd.field_mime
+    - field.field.media.mynd.field_mynd
+    - field.field.media.mynd.field_width
+    - image.style.article_660x420_landscape
+    - media_entity.bundle.mynd
+  module:
+    - image
+id: media.mynd.landscape_660x420
+targetEntityType: media
+bundle: mynd
+mode: landscape_660x420
+content:
+  field_mynd:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: article_660x420_landscape
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_height: true
+  field_mime: true
+  field_width: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
