@@ -1,0 +1,10 @@
+uuid: 063c379a-b10d-4f82-ae7b-3d6bd9de5ab7
+langcode: is
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.landscape_480x270
+label: 'Landscape 480x270'
+targetEntityType: media
+cache: true

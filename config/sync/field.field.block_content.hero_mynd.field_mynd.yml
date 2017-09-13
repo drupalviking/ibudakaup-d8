@@ -1,0 +1,28 @@
+uuid: e3a5c8ae-cedf-407c-8cdd-5b615b64a0ae
+langcode: is
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_mynd
+    - field.storage.block_content.field_mynd
+    - media_entity.bundle.mynd
+id: block_content.hero_mynd.field_mynd
+field_name: field_mynd
+entity_type: block_content
+bundle: hero_mynd
+label: Mynd
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      mynd: mynd
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,37 @@
+uuid: 66b49650-71b8-4b22-a196-ca50a4ee797a
+langcode: is
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.landscape_full
+    - field.field.media.mynd.field_height
+    - field.field.media.mynd.field_mime
+    - field.field.media.mynd.field_mynd
+    - field.field.media.mynd.field_width
+    - image.style.hero_1140x400
+    - media_entity.bundle.mynd
+  module:
+    - image
+id: media.mynd.landscape_full
+targetEntityType: media
+bundle: mynd
+mode: landscape_full
+content:
+  field_mynd:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: hero_1140x400
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_height: true
+  field_mime: true
+  field_width: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

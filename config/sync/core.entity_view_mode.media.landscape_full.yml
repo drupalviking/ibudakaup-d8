@@ -1,0 +1,10 @@
+uuid: 16187055-519c-401d-89b1-551ca4df0faf
+langcode: is
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.landscape_full
+label: 'Landscape full'
+targetEntityType: media
+cache: true

@@ -1,0 +1,25 @@
+uuid: c63f1a46-01dd-431c-83a9-a73bdcd28205
+langcode: is
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_mynd:e794a31a-d647-4370-bef1-0a53bc73ba35'
+  module:
+    - block_content
+  theme:
+    - ibudakaup
+id: omaravegg
+theme: ibudakaup
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:e794a31a-d647-4370-bef1-0a53bc73ba35'
+settings:
+  id: 'block_content:e794a31a-d647-4370-bef1-0a53bc73ba35'
+  label: 'Ómar á vegg'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

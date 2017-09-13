@@ -1,0 +1,19 @@
+uuid: b3de952a-230b-478b-80f0-195889d51e8a
+langcode: is
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_mynd
+    - field.storage.block_content.field_fyrirsogn
+id: block_content.hero_mynd.field_fyrirsogn
+field_name: field_fyrirsogn
+entity_type: block_content
+bundle: hero_mynd
+label: Fyrirsögn
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

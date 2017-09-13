@@ -4,22 +4,65 @@ status: true
 dependencies:
   config:
     - block_content.type.hero_mynd
-    - field.field.block_content.hero_mynd.body
+    - entity_browser.browser.media_browser
+    - field.field.block_content.hero_mynd.field_fyrirsogn
+    - field.field.block_content.hero_mynd.field_hlekkur
+    - field.field.block_content.hero_mynd.field_mynd
+    - field.field.block_content.hero_mynd.field_texti_i_hnappi
+    - field.field.block_content.hero_mynd.field_undirfyrirsogn
   module:
-    - text
+    - entity_browser
+    - link
 id: block_content.hero_mynd.default
 targetEntityType: block_content
 bundle: hero_mynd
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 26
+  field_fyrirsogn:
+    weight: 28
     settings:
-      rows: 9
-      summary_rows: 3
+      size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_hlekkur:
+    weight: 31
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_mynd:
+    weight: 27
+    settings:
+      entity_browser: media_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: default
+      open: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_texti_i_hnappi:
+    weight: 30
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_undirfyrirsogn:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   info:
     type: string_textfield

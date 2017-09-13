@@ -12,3 +12,38 @@
   background-color: pink;
   margin-bottom: 0;
 }
+
+.hero-section {
+  height: 67vh;
+
+  .region-hero{
+    height: 67vh;
+  }
+
+  .frontpage-hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+
+    .captions {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px #000000;
+
+      h1 {
+        font: 700 60px/1.333 'Montserrat', sans-serif;
+        letter-spacing: 0.06em;
+      }
+      h2 {
+        font: 400 30px 'Montserrat', sans-serif;
+      }
+    }
+  }
+}

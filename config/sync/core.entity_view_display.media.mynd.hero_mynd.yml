@@ -1,0 +1,37 @@
+uuid: 34e1e883-06b1-4277-b3ae-91b427c0c940
+langcode: is
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.hero_mynd
+    - field.field.media.mynd.field_height
+    - field.field.media.mynd.field_mime
+    - field.field.media.mynd.field_mynd
+    - field.field.media.mynd.field_width
+    - image.style.1600x1200
+    - media_entity.bundle.mynd
+  module:
+    - image
+id: media.mynd.hero_mynd
+targetEntityType: media
+bundle: mynd
+mode: hero_mynd
+content:
+  field_mynd:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: 1600x1200
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_height: true
+  field_mime: true
+  field_width: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
