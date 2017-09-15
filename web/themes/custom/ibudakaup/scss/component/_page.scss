@@ -50,12 +50,14 @@ h1.page-header {
 .page-node-type-service {
   section.col-sm-12 {
     margin-bottom: 60px;
+  }
+}
 
-    p {
-      color: #888;
-      font-family: 'Lato', sans-serif;
-      font-size: 16px;
-    }
+.main-container {
+  p {
+    color: #888;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
   }
 
   .group-left {
