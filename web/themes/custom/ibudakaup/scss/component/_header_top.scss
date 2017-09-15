@@ -1,23 +1,33 @@
 .header-top {
   background-color: $color__background-header-top;
+}
 
-  #block-emailandphonenumber {
-    float: left;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 300;
-    padding: 5px 0;
+#block-emailandphonenumber,
+#block-emailandphonenumber-2 {
+  float: left;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 0;
 
-    a {
-      color: $color__link_color;
-    }
-
-    a:hover {
-      color: #fff;
-    }
+  a {
+    color: $color__link_color;
   }
 
-  #block-sociallinks {
-    float: right;
+  a:hover {
+    color: #fff;
+  }
+}
+
+#block-sociallinks,
+#block-sociallinks-2 {
+  float: right;
+
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: $color__link_color;
   }
 }
