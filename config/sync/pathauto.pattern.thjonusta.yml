@@ -1,0 +1,34 @@
+uuid: d04805c4-7fc5-47d2-aeac-4583bca54ec1
+langcode: is
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: thjonusta
+label: Þjónusta
+type: 'canonical_entities:node'
+pattern: '/thjonusta/[node:title]'
+selection_criteria:
+  de41bbb9-731a-4906-a956-0a9a9b79196e:
+    id: node_type
+    bundles:
+      service: service
+    negate: false
+    context_mapping:
+      node: node
+    uuid: de41bbb9-731a-4906-a956-0a9a9b79196e
+  c2d78582-3d82-450f-bc0c-b4b8b4d46c57:
+    id: language
+    langcodes:
+      is: is
+      en: en
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: c2d78582-3d82-450f-bc0c-b4b8b4d46c57
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Tungumál
