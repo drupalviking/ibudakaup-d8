@@ -1,9 +1,9 @@
-uuid: 8d46e7a2-f046-42a8-a77b-4705db94d319
+uuid: 7e0d91d6-d2eb-427c-8fef-cbf8457704f9
 langcode: is
 status: true
 dependencies:
   content:
-    - 'block_content:basic:e5a43de6-80cd-4610-bbca-1504dd15a818'
+    - 'block_content:basic:922c1fd1-815f-4230-9d0d-e15ff0a614be'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: ibudakaup
 region: content_bottom
 weight: 0
 provider: null
-plugin: 'block_content:e5a43de6-80cd-4610-bbca-1504dd15a818'
+plugin: 'block_content:922c1fd1-815f-4230-9d0d-e15ff0a614be'
 settings:
-  id: 'block_content:e5a43de6-80cd-4610-bbca-1504dd15a818'
+  id: 'block_content:922c1fd1-815f-4230-9d0d-e15ff0a614be'
   label: 'Um Íbúðakaup.is'
   provider: block_content
   label_display: visible

@@ -1,9 +1,9 @@
-uuid: c63f1a46-01dd-431c-83a9-a73bdcd28205
+uuid: c532040c-092c-4719-baab-fa2b1b736997
 langcode: is
 status: true
 dependencies:
   content:
-    - 'block_content:hero_mynd:e794a31a-d647-4370-bef1-0a53bc73ba35'
+    - 'block_content:hero_mynd:23fdaf9e-d7e8-4577-8925-4d24e9e57853'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: ibudakaup
 region: hero
 weight: 0
 provider: null
-plugin: 'block_content:e794a31a-d647-4370-bef1-0a53bc73ba35'
+plugin: 'block_content:23fdaf9e-d7e8-4577-8925-4d24e9e57853'
 settings:
-  id: 'block_content:e794a31a-d647-4370-bef1-0a53bc73ba35'
+  id: 'block_content:23fdaf9e-d7e8-4577-8925-4d24e9e57853'
   label: 'Ómar á vegg'
   provider: block_content
   label_display: '0'
