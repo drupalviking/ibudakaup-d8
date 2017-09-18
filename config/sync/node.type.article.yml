@@ -1,12 +1,19 @@
 uuid: ace34e64-e5bf-46aa-a454-e8c6d78473d0
 langcode: is
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 _core:
   default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
-name: Article
+name: Bloggfærslur
 type: article
-description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'
+description: 'Notast til að skrifa bloggfærslur ýmiskonar'
 help: ''
 new_revision: true
 preview_mode: 1

@@ -1,0 +1,28 @@
+uuid: 2da1d0ce-31c6-4f9b-b8b9-48d76e0708ad
+langcode: is
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mynd
+    - media_entity.bundle.mynd
+    - node.type.article
+id: node.article.field_mynd
+field_name: field_mynd
+entity_type: node
+bundle: article
+label: Mynd
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      mynd: mynd
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
