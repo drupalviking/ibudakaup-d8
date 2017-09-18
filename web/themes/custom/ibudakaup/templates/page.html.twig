@@ -167,15 +167,4 @@
     </div>
 {% endblock %}
 
-{% block footer %}
-    <div class="footer-top">
-        <div class="{{ container }}">
-            {{ page.footer_top }}
-        </div>
-    </div>
-    <footer class="footer" role="contentinfo">
-        <div class="{{ container }}">
-            {{ page.footer }}
-        </div>
-    </footer>
-{% endblock %}
+{% include 'footer.html.twig' %}
