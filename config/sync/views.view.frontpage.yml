@@ -179,7 +179,7 @@ display:
             offset: false
             offset_label: Offset
           tags:
-            previous: '‹ Previous'
+            previous: '< Fyrri'
             next: 'Next ›'
             first: '« First'
             last: 'Last »'
@@ -255,7 +255,7 @@ display:
   feed_1:
     display_plugin: feed
     id: feed_1
-    display_title: Feed
+    display_title: Veita
     position: 2
     display_options:
       sitename_title: true

@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: tS8PbpJX90aRFC3-UTgXzdqkq7_2frk2pz4TMijEebM
 id: content
-label: Content
+label: Innihald
 module: node
 description: 'Find and manage content.'
 tag: default
@@ -29,7 +29,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Sía
           reset_button: true
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -41,7 +41,7 @@ display:
         options:
           items_per_page: 50
           tags:
-            previous: '‹ Previous'
+            previous: '< Fyrri'
             next: 'Next ›'
             first: '« First'
             last: 'Last »'
@@ -161,7 +161,7 @@ display:
           id: title
           table: node_field_data
           field: title
-          label: Title
+          label: Titill
           exclude: false
           alter:
             alter_text: false
@@ -184,7 +184,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Content type'
+          label: Efnisgerð
           exclude: false
           alter:
             alter_text: false
@@ -247,7 +247,7 @@ display:
           table: users_field_data
           field: name
           relationship: uid
-          label: Author
+          label: Höfundur
           exclude: false
           alter:
             alter_text: false
@@ -265,7 +265,7 @@ display:
           id: status
           table: node_field_data
           field: status
-          label: Status
+          label: Staða
           exclude: false
           alter:
             alter_text: false
@@ -278,8 +278,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Published
-            format_custom_false: Unpublished
+            format_custom_true: Birt
+            format_custom_false: 'Ekki birt'
           plugin_id: field
           entity_type: node
           entity_field: status
@@ -287,7 +287,7 @@ display:
           id: changed
           table: node_field_data
           field: changed
-          label: Updated
+          label: Uppfært
           exclude: false
           alter:
             alter_text: false
@@ -369,7 +369,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Title
+            label: Titill
             description: ''
             use_operator: false
             operator: title_op
@@ -409,7 +409,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: 'Content type'
+            label: Efnisgerð
             description: ''
             use_operator: false
             operator: type_op
@@ -450,7 +450,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: Status
+            label: Staða
             description: ''
             use_operator: false
             operator: status_op
@@ -473,11 +473,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Birt
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: 'Ekki birt'
                 operator: '='
                 value: '0'
           plugin_id: boolean
@@ -534,7 +534,7 @@ display:
           group: 1
           entity_type: node
       sorts: {  }
-      title: Content
+      title: Innihald
       empty:
         area_text_custom:
           id: area_text_custom
@@ -578,14 +578,14 @@ display:
       path: admin/content/node
       menu:
         type: 'default tab'
-        title: Content
+        title: Innihald
         description: ''
         menu_name: admin
         weight: -10
         context: ''
       tab_options:
         type: normal
-        title: Content
+        title: Innihald
         description: 'Find and manage content'
         menu_name: admin
         weight: -10

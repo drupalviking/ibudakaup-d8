@@ -55,7 +55,7 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: '‹ Previous'
+            previous: '< Fyrri'
             next: 'Next ›'
           expose:
             items_per_page: false
@@ -122,7 +122,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Block description'
+          label: 'Lýsing á blokk'
           exclude: false
           alter:
             alter_text: false
@@ -252,7 +252,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Updated
+          label: Uppfært
           exclude: false
           alter:
             alter_text: false
@@ -366,7 +366,7 @@ display:
           exposed: true
           expose:
             operator_id: info_op
-            label: 'Block description'
+            label: 'Lýsing á blokk'
             description: ''
             use_operator: false
             operator: info_op

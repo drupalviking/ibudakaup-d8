@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: Gy5PaLdfFhtFSRqJxV-DBTF5AocKgNA2CsCNNEbvx4c
 id: taxonomy_term
-label: 'Taxonomy term'
+label: Flokkunarhugtak
 module: taxonomy
 description: 'Content belonging to a certain taxonomy term.'
 tag: default
@@ -256,7 +256,7 @@ display:
       tags: {  }
   feed_1:
     id: feed_1
-    display_title: Feed
+    display_title: Veita
     display_plugin: feed
     position: 2
     display_options:

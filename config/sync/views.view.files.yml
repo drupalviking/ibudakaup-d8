@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: rRWxAX-IQkJ5viACQRovRkC784EyCl9493GU_G23n2Q
 id: files
-label: Files
+label: Skrár
 module: file
 description: 'Find and manage files.'
 tag: default
@@ -40,7 +40,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Sía
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -55,7 +55,7 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
+            previous: '< Fyrri'
             next: 'Next ›'
           expose:
             items_per_page: false
@@ -187,7 +187,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Name
+          label: Nafn
           exclude: false
           alter:
             alter_text: false
@@ -354,7 +354,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Status
+          label: Staða
           exclude: false
           alter:
             alter_text: false
@@ -666,7 +666,7 @@ display:
           exposed: true
           expose:
             operator_id: status_op
-            label: Status
+            label: Staða
             description: ''
             use_operator: false
             operator: status_op
@@ -695,7 +695,7 @@ display:
           entity_type: file
           entity_field: status
       sorts: {  }
-      title: Files
+      title: Skrár
       header: {  }
       footer: {  }
       empty:
@@ -737,7 +737,7 @@ display:
       path: admin/content/files
       menu:
         type: tab
-        title: Files
+        title: Skrár
         description: ''
         menu_name: admin
         weight: 0
@@ -794,7 +794,7 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
+            previous: '< Fyrri'
             next: 'Next ›'
           expose:
             items_per_page: false

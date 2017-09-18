@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: o_8fSWHZOVIbydZACGsSX09DtuJhqkRmNOzcVj-4bQI
 id: who_s_new
-label: 'Who''s new'
+label: Nýskráðir
 module: user
 description: 'Shows a list of the newest user accounts on the site.'
 tag: default
@@ -160,7 +160,7 @@ display:
           plugin_id: date
           entity_type: user
           entity_field: created
-      title: 'Who''s new'
+      title: Nýskráðir
       header: {  }
       footer: {  }
       empty: {  }
@@ -177,12 +177,12 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: 'Who''s new'
+    display_title: Nýskráðir
     position: 1
     display_options:
       display_description: 'A list of new users'
-      block_description: 'Who''s new'
-      block_category: User
+      block_description: Nýskráðir
+      block_category: Notandi
       display_extenders: {  }
     cache_metadata:
       contexts:

@@ -1,0 +1,12 @@
+title: Donation
+description: 'A donation webform template.'
+elements: "donation:\n  '#title': 'Donation Information'\n  '#type': fieldset\n  amount:\n    '#type': webform_buttons_other\n    '#title': Amount\n    '#title_display': invisible\n    '#required': true\n    '#options':\n      25: $25\n      50: $50\n      100: $100\n      250: $250\n      500: $500\n    '#other__option_label': Other\n    '#other__title': 'Please Enter Your Donation'\n    '#other__type': number\n    '#other__min': 1\n    '#other__placeholder': ''\n    '#other__field_prefix': $\n    '#other__field_suffix': '.00'\nbilling:\n  '#title': 'Billing Information'\n  '#type': fieldset\n  name:\n    '#type': webform_name\n    '#title': Name\n    '#title_display': invisible\n    '#required': true\n    '#first__required': true\n    '#last__required': true\n    '#suffix__access': false\n    '#degree__access': false\n    '#flexbox': '1'\n  address:\n    '#type': webform_address\n    '#title': Address\n    '#title_display': invisible\n    '#required': true\n    '#address__required': true\n    '#city__required': true\n    '#state_province__required': true\n    '#postal_code__required': true\n    '#country__required': true\n    '#flexbox': '1'\n  email:\n    '#type': pmail\n    '#title': Email\n    '#required': true\n  phone:\n    '#type': phone\n    '#title': Phone\npayment:\n  '#title': 'Payment Information'\n  '#type': fieldset\n  credit_card:\n    '#type': webform_creditcard\n    '#title': 'Credit Card'\n    '#title_display': invisible\n    '#required': true\n    '#name__required': true\n    '#type__required': true\n    '#number__required': true\n    '#civ__required': true\n    '#expiration_month__required': true\n    '#expiration_year__required': true\n    '#flexbox': '1'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Donate\n"
+settings:
+  confirmation_message: "<h2>Thank you!!!</h2>\n<p>Your donation was processed successfully!</p>\n"
+handlers:
+  email_notification:
+    label: 'Email Notification'
+    settings:
+      from_name: '[webform_submission:values:first_name] [webform_submission:values:last_name]'
+      subject: default
+      body: default
