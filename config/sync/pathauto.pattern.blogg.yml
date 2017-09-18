@@ -1,31 +1,31 @@
-uuid: d04805c4-7fc5-47d2-aeac-4583bca54ec1
+uuid: 0d00f1ea-6276-46b1-b333-2c707657ffb4
 langcode: is
 status: true
 dependencies:
   module:
     - language
     - node
-id: thjonusta
-label: Þjónusta
+id: blogg
+label: Blogg
 type: 'canonical_entities:node'
-pattern: '/thjonusta/[node:title]'
+pattern: '/blogg/[node:title]'
 selection_criteria:
-  78fcd552-24e2-452b-8ca8-1ce7a513f6df:
+  1870b167-8b70-42a7-b7b1-c3aa645f5bcc:
     id: node_type
     bundles:
-      service: service
+      article: article
     negate: false
     context_mapping:
       node: node
-    uuid: 78fcd552-24e2-452b-8ca8-1ce7a513f6df
-  906b80cb-f703-4fd0-b507-673e2d6b7b78:
+    uuid: 1870b167-8b70-42a7-b7b1-c3aa645f5bcc
+  2998c507-500d-4f7d-b61c-05b43fe32459:
     id: language
     langcodes:
       is: is
     negate: false
     context_mapping:
       language: 'node:langcode:language'
-    uuid: 906b80cb-f703-4fd0-b507-673e2d6b7b78
+    uuid: 2998c507-500d-4f7d-b61c-05b43fe32459
 selection_logic: and
 weight: -10
 relationships:

@@ -23,5 +23,6 @@ content:
 hidden:
   body: true
   comment: true
+  field_mynd: true
   field_tags: true
   langcode: true
