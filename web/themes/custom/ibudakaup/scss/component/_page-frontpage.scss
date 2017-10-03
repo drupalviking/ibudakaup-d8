@@ -32,16 +32,41 @@
       top: 50%;
       left: 40%;
       transform: translate(-32%, -50%);
-      color: white;
       text-transform: uppercase;
-      text-shadow: 2px 2px 4px #000000;
 
-      h1 {
-        font: 700 60px/1.333 'Montserrat', sans-serif;
-        letter-spacing: 0.06em;
+      .text {
+        color: white;
+
+        text-shadow: 2px 2px 4px #000000;
+
+        h1 {
+          font: 700 60px/1.333 'Montserrat', sans-serif;
+          letter-spacing: 0.06em;
+        }
+        h2 {
+          font: 400 30px 'Montserrat', sans-serif;
+        }
       }
-      h2 {
-        font: 400 30px 'Montserrat', sans-serif;
+
+
+      .button-link {
+        padding: 10px 40px;
+        background: white;
+        display: inline-block;
+        margin-top: 30px;
+        transition: 0.4s;
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: $color__link_color;
+
+        &:hover {
+          background: $color__link_color;
+          border-color: white;
+
+          a{
+            color: white;
+          }
+        }
       }
     }
   }
