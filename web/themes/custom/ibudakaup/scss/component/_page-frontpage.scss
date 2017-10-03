@@ -38,6 +38,35 @@
       top: 50%;
       left: 40%;
       transform: translate(-32%, -50%);
+
+      @media screen and (max-width: 767px) {
+        .text {
+          h1 {
+            font: 700 40px/1.333 'Montserrat', sans-serif !important;
+          }
+
+          h2 {
+            font: 400 24px 'Montserrat', sans-serif !important;
+          }
+        }
+      }
+
+      @media screen and (max-width: 320px) {
+        transform: translate(-36%, -50%);
+      }
+
+      @media screen and (max-width: 480px) {
+        transform: translate(-36%, -50%);
+      }
+
+      @media screen and (min-width: 481px) {
+        transform: translate(-36%, -60%);
+      }
+
+      @media screen and (min-width: 768px) {
+        transform: translate(-36%, -65%);
+      }
+
       text-transform: uppercase;
 
       .text {
