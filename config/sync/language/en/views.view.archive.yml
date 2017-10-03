@@ -30,5 +30,3 @@ display:
       arguments:
         created_year_month:
           title: '{{ arguments.created_year_month }}'
-  page_1:
-    display_title: Page

@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - entityqueue.entity_queue.frontpage_services
     - node.type.service
   module:
+    - entityqueue
     - node
     - user
 id: services
@@ -136,26 +138,35 @@ display:
           entity_field: type
           plugin_id: bundle
       sorts:
-        created:
-          id: created
+        entityqueue_relationship:
+          id: entityqueue_relationship
           table: node_field_data
-          field: created
-          order: DESC
-          entity_type: node
-          entity_field: created
-          plugin_id: date
+          field: entityqueue_relationship
           relationship: none
           group_type: group
           admin_label: ''
+          order: ASC
           exposed: false
           expose:
             label: ''
-          granularity: second
+          entity_type: node
+          plugin_id: entity_queue_position
       title: Þjónusta
       header: {  }
       footer: {  }
       empty: {  }
-      relationships: {  }
+      relationships:
+        entityqueue_relationship:
+          id: entityqueue_relationship
+          table: node_field_data
+          field: entityqueue_relationship
+          relationship: none
+          group_type: group
+          admin_label: 'Innihald queue'
+          required: false
+          limit_queue: frontpage_services
+          entity_type: node
+          plugin_id: entity_queue
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
@@ -165,7 +176,10 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:entityqueue.entity_queue.frontpage_services'
+        - entity_field_info
+        - views_data
   block_1:
     display_plugin: block
     id: block_1
@@ -180,4 +194,7 @@ display:
         - 'languages:language_interface'
         - 'user.node_grants:view'
         - user.permissions
-      tags: {  }
+      tags:
+        - 'config:entityqueue.entity_queue.frontpage_services'
+        - entity_field_info
+        - views_data
