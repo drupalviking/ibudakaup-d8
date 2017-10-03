@@ -13,10 +13,16 @@
 }
 
 .hero-section {
-  height: 67vh;
+  height: 90vh;
 
   .region-hero{
-    height: 67vh;
+    height: 90vh;
+  }
+
+  .logo {
+    z-index: 5;
+    position: absolute;
+    left: 10px;
   }
 
   .frontpage-hero {
