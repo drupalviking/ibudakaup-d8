@@ -3,12 +3,13 @@ session:
 url:
   source: path_prefix
   prefixes:
-    is: ''
     en: en
+    is: is
+    '': null
   domains:
-    is: ''
     en: ''
-selected_langcode: is
+    is: ''
+selected_langcode: site_default
 _core:
   default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
 langcode: is

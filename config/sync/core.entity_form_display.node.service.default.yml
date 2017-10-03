@@ -3,11 +3,13 @@ langcode: is
 status: true
 dependencies:
   config:
+    - entity_browser.browser.media_browser
     - field.field.node.service.body
     - field.field.node.service.field_icon_merki
     - field.field.node.service.field_mynd
     - node.type.service
   module:
+    - entity_browser
     - path
     - text
 id: node.service.default
@@ -41,11 +43,15 @@ content:
   field_mynd:
     weight: 32
     settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+      entity_browser: media_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      open: false
+      field_widget_display_settings: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: entity_browser_entity_reference
     region: content
   langcode:
     type: language_select

@@ -1,0 +1,178 @@
+uuid: 69a19b3f-19aa-4096-af67-64d18310c438
+langcode: is
+status: open
+dependencies:
+  module:
+    - honeypot
+third_party_settings:
+  honeypot:
+    honeypot: true
+open: null
+close: null
+uid: 3
+template: false
+id: fa_verdmat
+title: 'Fá verðmat'
+description: 'Formi&eth; tekur vi&eth; uppl&yacute;singum f&oacute;lks sem vill f&aacute; ver&eth;mat &aacute; &iacute;b&uacute;&eth; sinni'
+category: ''
+elements: "nafn:\n  '#type': textfield\n  '#title': Nafn\n  '#placeholder': 'fullt nafn'\n  '#required': true\n  '#required_error': 'Fylla verður þennan reit út.'\nnetfang_og_simi:\n  '#type': webform_flexbox\n  netfang:\n    '#type': email\n    '#title': Netfang\n    '#title_display': before\n    '#placeholder': jon@prufa.is\n    '#required': true\n    '#required_error': 'Fylla verður þennan reit út.'\n  simi:\n    '#type': tel\n    '#title': Sími\n    '#title_display': before\n    '#required': true\n    '#required_error': 'Fylla verður þennan reit út.'\nhef_ahuga_a_verdmati_a_minni_eign:\n  '#type': checkbox\n  '#title': 'Hef áhuga á verðmati á minni eign'\n  '#icheck': square\nvil_gjarnan_fa_tilbod_i_solumedferd_a_minni_eign:\n  '#type': checkbox\n  '#title': 'Vil gjarnan fá tilboð í sölumeðferð á minni eign'\n  '#icheck': square\nibud:\n  '#type': webform_flexbox\n  postnumer:\n    '#type': textfield\n    '#title': Póstnúmer\n    '#size': '6'\n  gata_og_husnumer:\n    '#type': textfield\n    '#title': 'Gata og húsnúmer'\n  ibudanumer_ef_fjolbyli_:\n    '#type': textfield\n    '#title': 'Íbúðanúmer (ef fjölbýli)'\n    '#help': 'Ef fasteignin er &iacute; fj&ouml;lb&yacute;li er nau&eth;synlegt a&eth; setja &iacute;b&uacute;&eth;arn&uacute;meri&eth; h&eacute;r'\nvill_koma_a_framfaeri_eda_vantar_radgjof:\n  '#type': textarea\n  '#title': 'Vill koma á framfæri - eða vantar ráðgjöf'\n  '#help': 'Ef &amp;thorn;&amp;uacute; vilt koma einhverju &amp;aacute; framf&amp;aelig;ri til m&amp;iacute;n e&amp;eth;a ef &amp;thorn;ig vantar almenna r&amp;aacute;&amp;eth;gj&amp;ouml;f, endilega settu inn meiri uppl&amp;yacute;singar h&amp;eacute;r.'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#reset_hide': true\n"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  page: true
+  page_submit_path: fa-verdmat
+  page_confirm_path: ''
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: true
+  form_disable_autocomplete: true
+  form_novalidate: false
+  form_unsaved: false
+  form_disable_back: true
+  form_autofocus: false
+  form_details_toggle: false
+  submission_label: 'Innsendar óskir um verðmat'
+  submission_log: false
+  submission_user_columns: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_start_label: ''
+  wizard_complete: true
+  wizard_complete_label: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: url
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: /takk-fyrir
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: 'Til baka í formið'
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_message: ''
+  purge: none
+  purge_days: null
+  entity_limit_total: null
+  entity_limit_user: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers:
+  netfang:
+    id: email
+    label: Netfang
+    handler_id: netfang
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: omargud@gmail.com
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: default
+      subject: default
+      body: default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+  netfang_sendanda:
+    id: email
+    label: Netfang
+    handler_id: netfang_sendanda
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: '[webform_submission:values:netfang:raw]'
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: omargud@gmail.com
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: default
+      subject: 'Ósk um verðmat/tilboð í sölumeðferð'
+      body: "K&aelig;ri/k&aelig;ra [webform_submission:values:nafn]<br />\n<br />\nHaf&eth;u n&uacute; k&aelig;rar og innlega &thorn;akkir fyrir a&eth; hafa gefi&eth; m&eacute;r m&ouml;guleika &aacute; &thorn;v&iacute; a&eth; ver&eth;a vi&eth; b&oacute;n &thorn;inni um ver&eth;mat. &THORN;a&eth; met &eacute;g mikils. &Eacute;g mun n&uacute; fara vandlega yfir g&ouml;gnin og senda &thorn;&eacute;r gott ver&eth;mat &aacute; sem skemmstum t&iacute;ma.<br />\n<br />\nK&aelig;r kve&eth;ja,<br />\n&Oacute;mar Gu&eth;mundsson<br />\nPylsuger&eth;arma&eth;ur"
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      debug: false
+      reply_to: ''
+      return_path: ''

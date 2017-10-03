@@ -10,8 +10,8 @@ dependencies:
     - ibudakaup
 id: umibudakaup.is
 theme: ibudakaup
-region: content_bottom
-weight: 0
+region: footer
+weight: -7
 provider: null
 plugin: 'block_content:922c1fd1-815f-4230-9d0d-e15ff0a614be'
 settings:

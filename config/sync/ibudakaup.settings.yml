@@ -3,9 +3,9 @@ _core:
   default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
-  url: 'http://ibudakaup-d8.dd:8083/themes/custom/ibudakaup/favicon.ico'
-  use_default: 1
+  path: themes/custom/ibudakaup/images/favicons.ico/favicon.ico
+  url: 'http://ibudakaup.isproject.is/themes/custom/ibudakaup/favicon.ico'
+  use_default: 0
 schemas:
   bootstrap: 8000
   ibudakaup: 8000
@@ -29,10 +29,9 @@ region_wells:
   content: ''
   content_bottom: ''
   sidebar_first: ''
-  sidebar_second: well
+  sidebar_second: ''
   footer_top: ''
   footer: ''
   highlighted: ''
 table_responsive: '-1'
 table: ''
-langcode: is

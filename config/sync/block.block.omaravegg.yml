@@ -11,7 +11,7 @@ dependencies:
 id: omaravegg
 theme: ibudakaup
 region: hero
-weight: -6
+weight: 0
 provider: null
 plugin: 'block_content:23fdaf9e-d7e8-4577-8925-4d24e9e57853'
 settings:
