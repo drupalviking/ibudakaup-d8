@@ -1,0 +1,25 @@
+uuid: b42c1924-b7a2-4a1a-9310-9d5cb63f07c8
+langcode: is
+status: true
+dependencies:
+  module:
+    - node
+id: frontpage_services
+label: Forsíðu-þjónustur
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      service: service
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 6
+  act_as_queue: false
+  reverse_in_admin: false
