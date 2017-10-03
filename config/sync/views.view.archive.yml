@@ -33,7 +33,7 @@ display:
           distinct: false
           replica: false
           query_tags: {  }
-      title: 'Monthly archive'
+      title: 'Blogg og greinar'
       access:
         type: perm
         options:
@@ -106,9 +106,9 @@ display:
           default_argument_skip_url: false
           summary_options:
             base_path: ''
-            count: true
             override: true
             items_per_page: 30
+            count: false
           summary:
             sort_order: desc
             number_of_records: 0
@@ -238,8 +238,28 @@ display:
         - user.permissions
       max-age: -1
       tags: {  }
-  block_1:
-    id: block_1
+  blog_overview:
+    id: blog_overview
+    display_title: Page
+    display_plugin: page
+    position: 2
+    display_options:
+      query:
+        type: views_query
+        options: {  }
+      path: blogg
+      display_extenders: {  }
+    cache_metadata:
+      contexts:
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      max-age: -1
+      tags: {  }
+  blogg_overview_block:
+    id: blogg_overview_block
     display_title: Blokk
     display_plugin: block
     position: 1
@@ -267,26 +287,6 @@ display:
           specify_validation: true
           plugin_id: date_year_month
           entity_type: node
-      display_extenders: {  }
-    cache_metadata:
-      contexts:
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      max-age: -1
-      tags: {  }
-  blog_overview:
-    id: blog_overview
-    display_title: Page
-    display_plugin: page
-    position: 2
-    display_options:
-      query:
-        type: views_query
-        options: {  }
-      path: blogg
       display_extenders: {  }
     cache_metadata:
       contexts:
