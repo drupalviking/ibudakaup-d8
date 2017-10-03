@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:hero_mynd:23fdaf9e-d7e8-4577-8925-4d24e9e57853'
   module:
     - block_content
+    - system
   theme:
     - ibudakaup
 id: omaravegg
@@ -22,4 +23,9 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
