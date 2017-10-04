@@ -1,0 +1,32 @@
+uuid: 54394ed1-212c-40bf-a70e-160518fa3017
+langcode: is
+status: true
+dependencies:
+  config:
+    - views.view.archive
+  module:
+    - ctools
+    - views
+  theme:
+    - ibudakaup
+id: views_block__archive_blogg_overview_block
+theme: ibudakaup
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:archive-blogg_overview_block'
+settings:
+  id: 'views_block:archive-blogg_overview_block'
+  label: 'Blogg og greinar'
+  provider: views
+  label_display: '0'
+  views_label: 'Blogg og greinar'
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

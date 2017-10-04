@@ -1,0 +1,28 @@
+uuid: a3777941-9257-4ab1-a502-fb1a9d7e7fee
+langcode: is
+status: true
+dependencies:
+  module:
+    - system
+    - webform
+  theme:
+    - ibudakaup
+id: webform
+theme: ibudakaup
+region: content_bottom
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: fa_verdmat
+  default_data: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
