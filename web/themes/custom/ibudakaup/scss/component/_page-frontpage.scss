@@ -218,3 +218,25 @@
     }
   }
 }
+
+.content-bottom {
+  background-color: $color__link_color;
+  padding:20px;
+
+  .form-actions {
+    margin-top: 30px;
+
+    button {
+      background-color: white;
+      color: $color__text-main;
+      border-color: $color__text-main;
+      transition: 0.4s;
+    }
+
+    button:hover {
+      background-color: $color__link_color;
+      color: white;
+      border-color: white;
+    }
+  }
+}
