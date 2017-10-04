@@ -17,7 +17,10 @@ type_settings:
   bundles:
     - mynd
   display_plugins:
+    - 'view_mode:media.landscape_380x220'
     - 'view_mode:media.landscape_480x270'
+    - 'view_mode:media.landscape_660x420'
+    - 'view_mode:media.portrait_380x460'
   entity_browser: media_browser
   entity_browser_settings:
     display_review: false

@@ -1,0 +1,45 @@
+uuid: c1ef3993-abe3-4d92-bf33-5d534cee5c0b
+langcode: is
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.portrait_380x460
+    - field.field.media.mynd.field_height
+    - field.field.media.mynd.field_mime
+    - field.field.media.mynd.field_mynd
+    - field.field.media.mynd.field_width
+    - image.style.article_380x460_portrait_
+    - media_entity.bundle.mynd
+  module:
+    - ds
+    - image
+id: media.mynd.portrait_380x460
+targetEntityType: media
+bundle: mynd
+mode: portrait_380x460
+content:
+  field_mynd:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: article_380x460_portrait_
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_height: true
+  field_mime: true
+  field_width: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

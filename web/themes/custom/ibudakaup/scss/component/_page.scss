@@ -72,12 +72,27 @@ h1.page-header {
 }
 
 .page-node-type-article {
-  img {
-    margin-bottom: 60px;
+  .align-left {
+    margin-right: 30px;
+    margin-bottom: 10px;
+  }
+
+  .align-right {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  .align-center {
+    margin: 0 30px 10px;
   }
 
   h1 {
     margin-bottom: 40px;
+  }
+
+  figcaption {
+    background-color: whitesmoke;
+    padding: 10px;
   }
 }
 

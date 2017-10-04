@@ -1,0 +1,16 @@
+uuid: 238e72ef-7b94-4953-8964-de164632c7f9
+langcode: is
+status: true
+dependencies:
+  module:
+    - focal_point
+name: article_380x460_portrait_
+label: 'Article 380x460 (Portrait)'
+effects:
+  0fe9dc24-b10b-405c-85eb-1a1ffc5d4f8b:
+    uuid: 0fe9dc24-b10b-405c-85eb-1a1ffc5d4f8b
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 380
+      height: 460

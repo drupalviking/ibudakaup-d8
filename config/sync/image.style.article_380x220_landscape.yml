@@ -1,0 +1,16 @@
+uuid: da21884b-c905-49b0-8a48-610f059ef363
+langcode: is
+status: true
+dependencies:
+  module:
+    - focal_point
+name: article_380x220_landscape
+label: 'Article 380x220 (Landscape)'
+effects:
+  938c6262-2b50-4e62-af1e-fcf786da7c72:
+    uuid: 938c6262-2b50-4e62-af1e-fcf786da7c72
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 380
+      height: 220

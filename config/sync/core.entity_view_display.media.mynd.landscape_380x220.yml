@@ -1,0 +1,45 @@
+uuid: d0d78100-1a99-4efd-85e4-661c8c20ff36
+langcode: is
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.landscape_380x220
+    - field.field.media.mynd.field_height
+    - field.field.media.mynd.field_mime
+    - field.field.media.mynd.field_mynd
+    - field.field.media.mynd.field_width
+    - image.style.article_380x220_landscape
+    - media_entity.bundle.mynd
+  module:
+    - ds
+    - image
+id: media.mynd.landscape_380x220
+targetEntityType: media
+bundle: mynd
+mode: landscape_380x220
+content:
+  field_mynd:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: article_380x220_landscape
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  field_height: true
+  field_mime: true
+  field_width: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true
