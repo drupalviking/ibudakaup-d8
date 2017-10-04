@@ -71,6 +71,7 @@ module:
   views_ui: 0
   webform: 0
   webform_bootstrap: 0
+  webform_node: 0
   webform_scheduled_email: 0
   webform_templates: 0
   webform_ui: 0

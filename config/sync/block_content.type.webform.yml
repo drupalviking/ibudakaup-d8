@@ -1,0 +1,8 @@
+uuid: cc082789-9dbb-49c7-88ad-4ab52d6421c9
+langcode: is
+status: true
+dependencies: {  }
+id: webform
+label: Webform
+revision: 0
+description: 'Birtir vefform í blokk'

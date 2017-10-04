@@ -1,0 +1,11 @@
+uuid: 828a43a0-88d8-428b-b056-3d3edb39e37e
+langcode: is
+status: true
+dependencies:
+  config:
+    - block_content.type.webform
+id: block_content.webform
+target_entity_type_id: block_content
+target_bundle: webform
+default_langcode: site_default
+language_alterable: false

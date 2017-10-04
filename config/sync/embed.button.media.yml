@@ -5,7 +5,7 @@ dependencies:
   config:
     - media_entity.bundle.mynd
   content:
-    - 'file:file:c9dd4a34-17ff-45af-9334-35b93982a681'
+    - 'file:file:8f054ee6-9011-4e05-a3b2-d2fef76f22b7'
   module:
     - entity_embed
     - media_entity
@@ -22,4 +22,4 @@ type_settings:
   entity_browser: media_browser
   entity_browser_settings:
     display_review: false
-icon_uuid: c9dd4a34-17ff-45af-9334-35b93982a681
+icon_uuid: 8f054ee6-9011-4e05-a3b2-d2fef76f22b7
