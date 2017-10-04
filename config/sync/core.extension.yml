@@ -21,9 +21,11 @@ module:
   ds: 0
   dynamic_page_cache: 0
   editor: 0
+  embed: 0
   entity: 0
   entity_browser: 0
   entity_browser_enhanced: 0
+  entity_embed: 0
   entity_reference_revisions: 0
   entityqueue: 0
   field: 0
@@ -35,6 +37,7 @@ module:
   help: 0
   history: 0
   honeypot: 0
+  ibudakaup_helper: 0
   image: 0
   inline_entity_form: 0
   language: 0

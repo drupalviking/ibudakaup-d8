@@ -1,0 +1,5 @@
+name: Íbbúðakaup Helper Module
+type: module
+description: Helper function for the website Íbúðakaup.is
+core: 8.x
+package: Íbúðakaup

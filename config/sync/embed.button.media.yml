@@ -1,0 +1,24 @@
+uuid: e7c61755-194f-4a97-afc6-777cf3dbb0ec
+langcode: is
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.mynd
+  content:
+    - 'file:file:c9dd4a34-17ff-45af-9334-35b93982a681'
+  module:
+    - entity_embed
+    - media_entity
+label: Media
+id: media
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - mynd
+  display_plugins:
+    - 'view_mode:media.landscape_480x270'
+  entity_browser: media_browser
+  entity_browser_settings:
+    display_review: false
+icon_uuid: c9dd4a34-17ff-45af-9334-35b93982a681
