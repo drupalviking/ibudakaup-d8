@@ -85,7 +85,7 @@
 
 
       .button-link {
-        padding: 10px 40px;
+        padding: 15px 50px;
         background: white;
         display: inline-block;
         margin-top: 30px;
@@ -93,6 +93,8 @@
         border: 2px solid;
         border-radius: 10px;
         border-color: $color__link_color;
+        font-weight: 900;
+        font-size: 20px;
 
         &:hover {
           background: $color__link_color;
@@ -169,14 +171,6 @@
       }
     }
   }
-}
-
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
 }
 
 .service-icon {

@@ -2,11 +2,19 @@
   background-color: $color__background-header-top;
 }
 
+.fa {
+  display: inline-block;
+  font: normal normal normal 20px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
 #block-emailandphonenumber,
 #block-emailandphonenumber-2 {
   float: left;
   color: #fff;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   padding: 5px 0;
 
@@ -24,10 +32,15 @@
   float: right;
 
   a {
-    color: #fff;
+    background-color: #fff;
+    color: #333;
   }
 
   a:hover {
     color: $color__link_color;
   }
+}
+
+i.fa-mobile {
+  font-size: 24px;
 }
