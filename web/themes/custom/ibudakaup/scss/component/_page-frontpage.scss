@@ -163,6 +163,15 @@
     li {
       height: 210px;
 
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
+        height: 270px;
+      }
+
+      @media screen and (min-width: 300px) and (max-width: 991px) {
+        height: auto;
+        margin-bottom: 30px;
+      }
+
       h2 {
         margin-top: 0px;
         font: 400 18px/1.333 'Montserrat', sans-serif;
